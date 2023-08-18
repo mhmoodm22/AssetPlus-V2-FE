@@ -1,0 +1,20 @@
+header {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background: #E0DBDA;
+    button.click {
+        background: #274abb;
+        display: inline-block;
+        color: #fff;
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        &:hover {
+            background: #546eca !important;
+            color: #fff;
+        }
+    }
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
